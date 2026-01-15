@@ -26,7 +26,8 @@
 // 5. Write a boolean expression that correctly checks if x is between 5 and 12.
 // Hint: you'll need to combine two comparisons!
 // const x = 7
-// ()
+// (12 > x > 5)
+// (12 > x)
 
 const username = prompt("What's your name?");
 alert(`Hello, ${username}!`);
@@ -65,7 +66,7 @@ if (selection === 1) {
 
 if (selectionInput === 1 || 2 || 3) {
   alert(
-    `Your username is ${username}, 
+    `Your username is ${username},
        You purchased ${selection} item, ${item} for ${price}.`
   );
 }
@@ -77,19 +78,3 @@ if (selection > 3) {
 
 // TODO: Prompt the user for a quantity between 1 and 10. Validate their input!
 // TODO: Show a confirmation message with the total cost.
-
-// the final code:
-//   if (selection ===1) {
-//     item = "pretzels";
-//     price = 1.99;
-//     alert(`You got pretzels`);
-//   } else if (selection === 2) {
-//     item = "chips";
-//     price = 0.99;
-//     alert(`You got chips!`);
-//   } else if (selection === 3) {
-//     item = "popcorn";
-//     price = 1.49;
-//     alert(`You got popcorn!`);
-//   }
-//
